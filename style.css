@@ -1,0 +1,48 @@
+body{
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+.header{
+    background-color: #1F2937;
+    padding-top: 8px;
+    padding-bottom: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 32px;
+    margin-right: 16px;
+}
+
+.header-logo img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    border: 2px solid #797979;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
